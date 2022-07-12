@@ -17,7 +17,7 @@ public class TestNg1 {
 	@BeforeMethod
 	public void beforeMethod()
 	{
-		System.out.println("before method");
+		System.out.println("before method.........");
 	}
     
 	@Test (priority = 1, dependsOnMethods = {"testB", "testD"})
